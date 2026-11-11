@@ -1,0 +1,2 @@
+#LLM #Memory-management 
+SGLang exploits this possibility with RadixAttention, which ==keeps the parts of the KV cache associated with already processed prefixes in order to reuse them when they appear in new queries==. This approach thus reduces redundant calculations when several queries have a common context.

@@ -1,0 +1,2 @@
+#LLM #Inference #Edge  
+Follows the logic through a C/C++ implementation with few dependencies and ==compatible with different CPU and GPU architectures, notably x86 and ARM==. It relies in particular on the ==GGUF format, which brings together the model parameters as well as the information necessary for its execution== and makes it possible to distribute models using different levels of quantification [[Adaptation to the Edge]]. 

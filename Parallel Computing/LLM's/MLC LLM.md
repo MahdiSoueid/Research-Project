@@ -1,0 +1,2 @@
+#LLM #Inference #Edge
+ pursues a ==portability objective==, but takes a different approach by ==adapting the execution of the model to the targeted platform by compilation==. Operations can thus be transformed depending on the available hardware, ==allowing the system to cover different environments, including Graphics Processing Unit (GPU), personal computers and mobile devices==. In a multi-user Edge context, certain jobs act directly on the scheduling of requests .

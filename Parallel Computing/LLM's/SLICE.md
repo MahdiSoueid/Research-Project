@@ -1,0 +1,2 @@
+#LLM #Inference #Edge
+Proposes to differentiate them according to their ==priority level in order to adapt the use of resources to their different constraints==. Its objective thus remains focused on improving scheduling when requests have different priorities, which corresponds to a more specific framework than that of comparable requests sharing the same resources.
