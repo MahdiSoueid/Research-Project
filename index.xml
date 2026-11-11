@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Research Project</title>
+      <link>https://mahdisoueid.github.io/Research-Project</link>
+      <description>Last 10 notes on Research Project</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Research Project Notes</title>
+    <link>https://mahdisoueid.github.io/Research-Project/</link>
+    <guid>https://mahdisoueid.github.io/Research-Project/</guid>
+    <description><![CDATA[ Research Project Notes Notes Index Layer Normalization README Tasks . ]]></description>
+    <pubDate>Wed, 11 Nov 2026 15:44:36 GMT</pubDate>
+  </item><item>
+    <title>Layer Normalization</title>
+    <link>https://mahdisoueid.github.io/Research-Project/Layer-Normalization</link>
+    <guid>https://mahdisoueid.github.io/Research-Project/Layer-Normalization</guid>
+    <description><![CDATA[ LLM Vaswani et al 2017 Helps with convergence. ]]></description>
+    <pubDate>Wed, 11 Nov 2026 15:44:28 GMT</pubDate>
+  </item><item>
+    <title>Untitled</title>
+    <link>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Cloud-Infrastructures/Untitled</link>
+    <guid>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Cloud-Infrastructures/Untitled</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 11 Nov 2026 15:44:28 GMT</pubDate>
+  </item><item>
+    <title>Adaptation to the Edge</title>
+    <link>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/LLM's/Adaptation-to-the-Edge</link>
+    <guid>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/LLM's/Adaptation-to-the-Edge</guid>
+    <description><![CDATA[ Edge LLM Several approaches can be used to make the models adapt to the edge environment, including the use of more compact models, quantification, pruning and distillation Zheng et al. ]]></description>
+    <pubDate>Wed, 11 Nov 2026 15:44:28 GMT</pubDate>
+  </item><item>
+    <title>Attention Mechanism</title>
+    <link>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/LLM's/Attention-Mechanism</link>
+    <guid>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/LLM's/Attention-Mechanism</guid>
+    <description><![CDATA[ LLM Transformer It originates from the attention is all you need paper by Vaswani et al 2017. ]]></description>
+    <pubDate>Wed, 11 Nov 2026 15:44:28 GMT</pubDate>
+  </item><item>
+    <title>BERT</title>
+    <link>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/LLM's/BERT</link>
+    <guid>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/LLM's/BERT</guid>
+    <description><![CDATA[ Transformer Bidirectional Encoder Representations From Transformers Take only encoder parts of the transformer and leverage the multi head layer in order to have all the input tokens attend to one another to make a representation to do a task. ]]></description>
+    <pubDate>Wed, 11 Nov 2026 15:44:28 GMT</pubDate>
+  </item><item>
+    <title>Batching</title>
+    <link>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/LLM's/Batching</link>
+    <guid>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/LLM's/Batching</guid>
+    <description><![CDATA[ LLM Scheduling Grouping some of them within the same group, is called batching. ]]></description>
+    <pubDate>Wed, 11 Nov 2026 15:44:28 GMT</pubDate>
+  </item><item>
+    <title>Decode Phase</title>
+    <link>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/LLM's/Decode-Phase</link>
+    <guid>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/LLM's/Decode-Phase</guid>
+    <description><![CDATA[ LLM Inference Preceeded by the Prefill Phase The inference continues with the decode phase. ]]></description>
+    <pubDate>Wed, 11 Nov 2026 15:44:28 GMT</pubDate>
+  </item><item>
+    <title>Decoder</title>
+    <link>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/LLM's/Decoder</link>
+    <guid>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/LLM's/Decoder</guid>
+    <description><![CDATA[ LLM Transformer Vaswani et al 2017 Use the meaningful representations from the encoder along with some internal embeddings that are being computed to generate next tokens. ]]></description>
+    <pubDate>Wed, 11 Nov 2026 15:44:28 GMT</pubDate>
+  </item><item>
+    <title>Encoder</title>
+    <link>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/LLM's/Encoder</link>
+    <guid>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/LLM's/Encoder</guid>
+    <description><![CDATA[ LLM Vaswani et al 2017 Compute meaningful embeddings of the source text/input. ]]></description>
+    <pubDate>Wed, 11 Nov 2026 15:44:28 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
