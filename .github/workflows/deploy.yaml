@@ -1,4 +1,4 @@
-name: Deploy Obsidian Notes to GitHub Pages
+name: Deploy Quartz Site to GitHub Pages
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -16,36 +16,91 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout Repository
+      - name: Checkout Notes Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Fetches full history for last-modified dates
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
 
-      - name: Install Quartz & Build Site
+      - name: Clone and Install Quartz v4
         run: |
-          npx @jackyzha0/quartz create --strategy copy --source .
-          npx @jackyzha0/quartz build
+          QUARTZ_DIR="$RUNNER_TEMP/quartz"
+          rm -rf "$QUARTZ_DIR"
+          git clone --depth 1 --branch v4 https://github.com/jackyzha0/quartz.git "$QUARTZ_DIR"
+          cd "$QUARTZ_DIR"
+          npm ci
 
-      - name: Upload Artifact
+      - name: Populate Content and Build Site
+        run: |
+          QUARTZ_DIR="$RUNNER_TEMP/quartz"
+          rm -rf "$QUARTZ_DIR/content/"*
+
+          tar -C "$GITHUB_WORKSPACE" \
+            --exclude='./.git' \
+            --exclude='./.github' \
+            --exclude='./.gitignore' \
+            --exclude='./.obsidian' \
+            --exclude='./.copilot' \
+            --exclude='./copilot' \
+            --exclude='./.cache' \
+            --exclude='./publish.sh' \
+            --exclude='./public' \
+            --exclude='./documentation.md' \
+            --exclude='./Documentation.md' \
+            --exclude='./DOCUMENTATION.md' \
+            -cf - . | tar -C "$QUARTZ_DIR/content" -xf -
+
+          # Generate index.md if one does not exist
+          if [ ! -f "$QUARTZ_DIR/content/index.md" ]; then
+            {
+              echo "---"
+              echo "title: Research Project Notes"
+              echo "---"
+              echo ""
+              echo "# Research Project Notes"
+              echo ""
+              echo "## Notes Index"
+              find "$QUARTZ_DIR/content" -maxdepth 2 -type f -name "*.md" ! -name "index.md" | sort | while read -r file; do
+                rel="${file#$QUARTZ_DIR/content/}"
+                note="${rel%.md}"
+                echo "- [[${note}]]"
+              done
+            } > "$QUARTZ_DIR/content/index.md"
+          fi
+
+          REPO_OWNER="$(echo "${GITHUB_REPOSITORY_OWNER}" | tr '[:upper:]' '[:lower:]')"
+          REPO_NAME="${GITHUB_REPOSITORY#*/}"
+          BASE_URL="${REPO_OWNER}.github.io/${REPO_NAME}"
+
+          sed -i 's/pageTitle: ".*"/pageTitle: "Research Project"/' "$QUARTZ_DIR/quartz.config.ts"
+          sed -i "s|baseUrl: \".*\"|baseUrl: \"$BASE_URL\"|" "$QUARTZ_DIR/quartz.config.ts"
+
+          cd "$QUARTZ_DIR"
+          npx quartz build -o "$GITHUB_WORKSPACE/public"
+          touch "$GITHUB_WORKSPACE/public/.nojekyll"
+
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+
+      - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public
+          path: ./public
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages (Actions)
         id: deployment
+        continue-on-error: true
         uses: actions/deploy-pages@v4

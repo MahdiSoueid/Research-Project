@@ -1,28 +1,48 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
-# Optional: navigate to the repository directory
-# cd "$(dirname "$0")"
+cd "$(dirname "$0")"
 
-# Check Git status
-if [[ -z $(git status -s) ]]; then
-  echo "No changes to publish."
-  exit 0
+# Initialize local git repository if not already present
+if [ ! -d ".git" ]; then
+  echo "Initializing git repository in $(pwd)..."
+  git init -b main
 fi
 
-# Stage all modified and new notes (respecting .gitignore)
+DEFAULT_REMOTE="git@github.com:MahdiSoueid/Research-Project.git"
+
+# Configure remote if passed as argument or fallback to DEFAULT_REMOTE
+case "${1:-}" in
+  http*|git@*)
+    if git remote get-url origin >/dev/null 2>&1; then
+      git remote set-url origin "$1"
+    else
+      git remote add origin "$1"
+    fi
+    shift
+    ;;
+  *)
+    if ! git remote get-url origin >/dev/null 2>&1; then
+      git remote add origin "$DEFAULT_REMOTE"
+    fi
+    ;;
+esac
+
+COMMIT_MSG="${1:-Update research notes ($(date +'%Y-%m-%d %H:%M'))}"
+
 git add -A
 
-# Prompt for a commit message or fallback to timestamp
-COMMIT_MSG="$1"
-if [ -z "$COMMIT_MSG" ]; then
-  COMMIT_MSG="Vault update: $(date '+%Y-%m-%d %H:%M:%S')"
+# Ensure documentation files and local workspace configs are untracked
+git rm --cached -r -f .obsidian .copilot copilot 2>/dev/null || true
+git rm --cached -f documentation.md Documentation.md DOCUMENTATION.md 2>/dev/null || true
+
+if git diff --cached --quiet; then
+  echo "No new changes to publish."
+else
+  git commit -m "$COMMIT_MSG"
 fi
 
-echo "Committing: $COMMIT_MSG"
-git commit -m "$COMMIT_MSG"
+BRANCH="$(git branch --show-current)"
+git push -u origin "$BRANCH"
+echo "Published! GitHub Actions is now building and deploying your Quartz site."
 
-echo "Pushing to remote repository..."
-git push origin main
-
-echo "Done! GitHub Actions will now build and publish your site."
