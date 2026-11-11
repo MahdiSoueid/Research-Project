@@ -1,0 +1,4 @@
+- March 2027 mid-term presentation for M1 students
+- June 2027 Report and final evaluation for M1 students|
+- 11/12/2026 at 11h00 1st paper presentation
+- 5/3/2027 at 11h00 2nd paper presentation
