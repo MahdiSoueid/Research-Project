@@ -1,0 +1,1 @@
+Notes from the course by Gael Thomas to learn the fundamentals of programming for distributed systems and multi core archetictures.

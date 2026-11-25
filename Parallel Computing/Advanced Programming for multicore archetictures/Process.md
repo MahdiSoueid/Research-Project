@@ -1,0 +1,12 @@
+- A process is a running instance of a program
+- Allow the execution of different programs in parallel (e.g. chrome)
+- Allow the execution of the same program multiple times (e.g., two instances of emacs for two different users)
+- A process is roughly a virtualization of a complete machine
+- A process contains
+	- A memory (data, code, heap)
+    
+	- One or more threads (each with its stack and its next instruction)
+- A process always starts with a single thread
+- A process may create more threads to increase parallelism 
+- The operating system can then schedule the multiple threads on the multiple CPUs in parallel
+- A process dies when its last thread terminates
