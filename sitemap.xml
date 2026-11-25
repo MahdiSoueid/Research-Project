@@ -1,178 +1,262 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Important-Dates</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/00---CSC5101-Index-(MOC)</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/01---Processes,-Threads-and-Monitors</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/02---Cache-Coherence-and-Memory-Models</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/03---Lock-Algorithms-and-Futexes</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/04---Non-Blocking-Data-Structures</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/05---Safe-Memory-Reclamation-(ABA,-Hazard-Pointers,-RCU)</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/06---Transactional-Memory-(STM,-HTM,-HyTM)</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/07---Persistent-Memory-(NVMM-and-Crash-Consistency)</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/08---NUMA-Architecture-(Extra)</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Exams/Exam-Patterns-and-C11-Atomics-Reference</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Exams/Past-Exam-2021-2022---Radix-Tree</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Exams/Past-Exam-2022-2023---Barrier-and-Flat-Combining</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Exams/Past-Exam-2023-2024---Lock-Free-Memory-Allocator</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Exams/Past-Exam-2024-2025---Userspace-RCU</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Exams/Past-Exam-2025-2026---Work-Stealing-Scheduler</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Futex</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Labs/Lab-01---Threads-and-Producer-Consumer</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Labs/Lab-02---Lock-Benchmarks-and-Futex-Mutex</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Labs/Lab-03---Lock-Free-Queue,-Stack,-Radix-Tree,-Linked-List</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Labs/Lab-04---Global-Clock-STM-Runtime</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Labs/Lab-05---NVMM-Write-Ahead-Cache-(NVCache)</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Labs/Lab-06---NUMA-Latency-Measurement-(Extra)</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Mutual-exclusion</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Process</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Readme</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Threads</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Cloud-Infrastructures/Untitled</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/LifeOfSNM/Life.c</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/to-do-list</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Presentations/LLM's-presentation</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/README</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Adaptation-to-the-Edge</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Attention-Mechanism</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/BERT</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Batching</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Decode-Phase</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Decoder</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Encoder</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Feed-Forward-Network</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Flash-attention</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Fragmentation</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/GPT</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Group-Query-attention</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/KV-Cache</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/LLM</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/MLC-LLM</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Memory-Management</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/MoE</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Multi-Tenant-Environments</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Multi-user-inference</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Next-Token-Prediction</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Paged-Attention</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Position-Information</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Prefill-Phase</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Presentation-LLM's-Rubrik</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Process-of-the-inference</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Radix-Attention</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Residual-connections</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/SLICE</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Sarathi-Serve</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Scaling-laws</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Scheduling-Policy</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Sliding-window-attention</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Tokenization</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/Transformers</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/llama.cpp</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/ollama</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/LLM's/vLLM</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/Research-Papers-Summaries/Summary-of-Chakib-Paper</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/Research-Papers-Summaries/Summary-of-Lina's-Paper</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
+  </url><url>
+    <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/Research-project-meetings/Meeting-17-11-2026</loc>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/Research-project-meetings/Meeting-19-10-2026</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/Research-project-meetings/Meeting-28-10-2026</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/Sources/Agrawal-et-al.-(2024)</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/Sources/Ay-et-Demirda%C4%9F-(2026)</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/Sources/Bomhold-et-al.-(2026)</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/Sources/Chakib-2025</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/Sources/Dhar-et-al.-(2024)</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/Sources/Kwon-et-al.-2023</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/Sources/Lina-2025</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/Sources/Park-et-al.-2026</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/Sources/Vaswani-et-al-2017</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/Sources/Ye-et-al.-(2025)</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Research-Project/Sources/Zheng-et-al.-(2025)</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/Tasks</loc>
-    <lastmod>2026-11-13T12:39:08.000Z</lastmod>
+    <lastmod>2026-11-25T14:23:22.000Z</lastmod>
   </url><url>
     <loc>https://mahdisoueid.github.io/Research-Project/</loc>
-    <lastmod>2026-11-13T12:39:15.260Z</lastmod>
+    <lastmod>2026-11-25T14:23:30.178Z</lastmod>
   </url></urlset>
