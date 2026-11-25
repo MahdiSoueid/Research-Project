@@ -10,61 +10,61 @@
     <link>https://mahdisoueid.github.io/Research-Project/</link>
     <guid>https://mahdisoueid.github.io/Research-Project/</guid>
     <description><![CDATA[ Research Project Notes Notes Index Important Dates to do list LLM’s presentation README Tasks . ]]></description>
-    <pubDate>Wed, 25 Nov 2026 14:23:30 GMT</pubDate>
+    <pubDate>Wed, 25 Nov 2026 14:30:13 GMT</pubDate>
   </item><item>
     <title>Important Dates</title>
     <link>https://mahdisoueid.github.io/Research-Project/Important-Dates</link>
     <guid>https://mahdisoueid.github.io/Research-Project/Important-Dates</guid>
     <description><![CDATA[  March 2027 mid-term presentation for M1 students June 2027 Report and final evaluation for M1 students| 11/12/2026 at 11h00 1st paper presentation 5/3/2027 at 11h00 2nd paper presentation . ]]></description>
-    <pubDate>Wed, 25 Nov 2026 14:23:22 GMT</pubDate>
+    <pubDate>Wed, 25 Nov 2026 14:30:05 GMT</pubDate>
   </item><item>
     <title>CSC5101 - Advanced Programming of Multicore Architectures (MOC)</title>
     <link>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/00---CSC5101-Index-(MOC)</link>
     <guid>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/00---CSC5101-Index-(MOC)</guid>
     <description><![CDATA[ CSC5101 — Advanced Programming of Multicore Architectures Course Overview Program: M1 Parallel &amp; Distributed Systems (IP Paris) / CHPS (Université Paris-Saclay) Instructor: Gaël Thomas Scope: 30h of lectures and labs covering multicore systems programming in C: POSIX threads, cache coherence &am... ]]></description>
-    <pubDate>Wed, 25 Nov 2026 14:23:22 GMT</pubDate>
+    <pubDate>Wed, 25 Nov 2026 14:30:05 GMT</pubDate>
   </item><item>
     <title>Processes, Threads and Monitors</title>
     <link>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/01---Processes,-Threads-and-Monitors</link>
     <guid>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/01---Processes,-Threads-and-Monitors</guid>
     <description><![CDATA[ 01 — Processes, Threads and Monitors Up: 00 - CSC5101 Index (MOC) | Next: 02 - Cache Coherence and Memory Models Lab: Lab 01 - Threads and Producer-Consumer 1. ]]></description>
-    <pubDate>Wed, 25 Nov 2026 14:23:22 GMT</pubDate>
+    <pubDate>Wed, 25 Nov 2026 14:30:05 GMT</pubDate>
   </item><item>
     <title>Cache Coherence and Memory Models</title>
     <link>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/02---Cache-Coherence-and-Memory-Models</link>
     <guid>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/02---Cache-Coherence-and-Memory-Models</guid>
     <description><![CDATA[ 02 — Cache Coherence and Memory Models Up: 00 - CSC5101 Index (MOC) | Prev: 01 - Processes, Threads and Monitors | Next: 03 - Lock Algorithms and Futexes 1. ]]></description>
-    <pubDate>Wed, 25 Nov 2026 14:23:22 GMT</pubDate>
+    <pubDate>Wed, 25 Nov 2026 14:30:05 GMT</pubDate>
   </item><item>
     <title>Lock Algorithms and Futexes</title>
     <link>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/03---Lock-Algorithms-and-Futexes</link>
     <guid>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/03---Lock-Algorithms-and-Futexes</guid>
     <description><![CDATA[ 03 — Lock Algorithms and Futexes Up: 00 - CSC5101 Index (MOC) | Prev: 02 - Cache Coherence and Memory Models | Next: 04 - Non-Blocking Data Structures Lab: Lab 02 - Lock Benchmarks and Futex Mutex 1. ]]></description>
-    <pubDate>Wed, 25 Nov 2026 14:23:22 GMT</pubDate>
+    <pubDate>Wed, 25 Nov 2026 14:30:05 GMT</pubDate>
   </item><item>
     <title>Non-Blocking Data Structures</title>
     <link>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/04---Non-Blocking-Data-Structures</link>
     <guid>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/04---Non-Blocking-Data-Structures</guid>
     <description><![CDATA[ 04 — Non-Blocking Data Structures Up: 00 - CSC5101 Index (MOC) | Prev: 03 - Lock Algorithms and Futexes | Next: 05 - Safe Memory Reclamation (ABA, Hazard Pointers, RCU) Lab: Lab 03 - Lock-Free Queue, Stack, Radix Tree, Linked List 1. ]]></description>
-    <pubDate>Wed, 25 Nov 2026 14:23:22 GMT</pubDate>
+    <pubDate>Wed, 25 Nov 2026 14:30:05 GMT</pubDate>
   </item><item>
     <title>Safe Memory Reclamation (ABA, Hazard Pointers, RCU)</title>
     <link>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/05---Safe-Memory-Reclamation-(ABA,-Hazard-Pointers,-RCU)</link>
     <guid>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/05---Safe-Memory-Reclamation-(ABA,-Hazard-Pointers,-RCU)</guid>
     <description><![CDATA[ 05 — Safe Memory Reclamation (ABA, Hazard Pointers, RCU) Up: 00 - CSC5101 Index (MOC) | Prev: 04 - Non-Blocking Data Structures | Next: 06 - Transactional Memory (STM, HTM, HyTM) 1. ]]></description>
-    <pubDate>Wed, 25 Nov 2026 14:23:22 GMT</pubDate>
+    <pubDate>Wed, 25 Nov 2026 14:30:05 GMT</pubDate>
   </item><item>
     <title>Transactional Memory (STM, HTM, HyTM)</title>
     <link>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/06---Transactional-Memory-(STM,-HTM,-HyTM)</link>
     <guid>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/06---Transactional-Memory-(STM,-HTM,-HyTM)</guid>
     <description><![CDATA[ 06 — Transactional Memory (STM, HTM, HyTM) Up: 00 - CSC5101 Index (MOC) | Prev: 05 - Safe Memory Reclamation (ABA, Hazard Pointers, RCU) | Next: 07 - Persistent Memory (NVMM and Crash Consistency) Lab: Lab 04 - Global-Clock STM Runtime 1. ]]></description>
-    <pubDate>Wed, 25 Nov 2026 14:23:22 GMT</pubDate>
+    <pubDate>Wed, 25 Nov 2026 14:30:05 GMT</pubDate>
   </item><item>
     <title>Persistent Memory (NVMM and Crash Consistency)</title>
     <link>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/07---Persistent-Memory-(NVMM-and-Crash-Consistency)</link>
     <guid>https://mahdisoueid.github.io/Research-Project/Parallel-Computing/Advanced-Programming-for-multicore-archetictures/Concepts/07---Persistent-Memory-(NVMM-and-Crash-Consistency)</guid>
     <description><![CDATA[ 07 — Persistent Memory (NVMM and Crash Consistency) Up: 00 - CSC5101 Index (MOC) | Prev: 06 - Transactional Memory (STM, HTM, HyTM) | Extra: 08 - NUMA Architecture (Extra) Lab: Lab 05 - NVMM Write-Ahead Cache (NVCache) 1. ]]></description>
-    <pubDate>Wed, 25 Nov 2026 14:23:22 GMT</pubDate>
+    <pubDate>Wed, 25 Nov 2026 14:30:05 GMT</pubDate>
   </item>
     </channel>
   </rss>
