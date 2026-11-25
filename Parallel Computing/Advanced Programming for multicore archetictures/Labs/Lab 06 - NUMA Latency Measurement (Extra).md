@@ -11,7 +11,7 @@ tags:
 
 # Lab 06 — NUMA Latency Measurement *(Extra)*
 
-Up: [[00 - CSC5101 Index (MOC)]] | Concept: [[08 - NUMA Architecture (Extra)]]
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Concept: [[08 - NUMA Architecture (Extra)]]
 
 ---
 

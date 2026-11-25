@@ -17,7 +17,7 @@ tags:
 
 # 03 — Lock Algorithms and Futexes
 
-Up: [[00 - CSC5101 Index (MOC)]] | Prev: [[02 - Cache Coherence and Memory Models]] | Next: [[04 - Non-Blocking Data Structures]]  
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Prev: [[02 - Cache Coherence and Memory Models]] | Next: [[04 - Non-Blocking Data Structures]]  
 Lab: [[Lab 02 - Lock Benchmarks and Futex Mutex]]
 
 ---

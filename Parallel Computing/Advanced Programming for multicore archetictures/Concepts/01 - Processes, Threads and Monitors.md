@@ -15,7 +15,7 @@ tags:
 
 # 01 — Processes, Threads and Monitors
 
-Up: [[00 - CSC5101 Index (MOC)]] | Next: [[02 - Cache Coherence and Memory Models]]  
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Next: [[02 - Cache Coherence and Memory Models]]  
 Lab: [[Lab 01 - Threads and Producer-Consumer]]
 
 ---

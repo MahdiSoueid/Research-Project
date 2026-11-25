@@ -1,4 +1,4 @@
-It is a lightweight [[process]] of type *`pthread_t`* and identifier of *`pthread_t pthread_self()`* in runtime
+It is a lightweight [[Process]] of type *`pthread_t`* and identifier of *`pthread_t pthread_self()`* in runtime
 
 *`Creation:`* 
 ```c

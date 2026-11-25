@@ -16,7 +16,7 @@ tags:
 
 # 08 — NUMA Architecture *(Extra Module)*
 
-Up: [[00 - CSC5101 Index (MOC)]] | Prev: [[07 - Persistent Memory (NVMM and Crash Consistency)]]  
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Prev: [[07 - Persistent Memory (NVMM and Crash Consistency)]]  
 Lab: [[Lab 06 - NUMA Latency Measurement (Extra)]]
 
 > [!note] Exam Scope Notice

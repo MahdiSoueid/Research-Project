@@ -10,7 +10,7 @@ tags:
 
 # Lab 01 — Threads and Producer-Consumer
 
-Up: [[00 - CSC5101 Index (MOC)]] | Concept: [[01 - Processes, Threads and Monitors]]
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Concept: [[01 - Processes, Threads and Monitors]]
 
 ---
 

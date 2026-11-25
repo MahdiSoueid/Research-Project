@@ -11,7 +11,7 @@ tags:
 
 # Past Exam 2023–2024 — Lock-Free Memory Allocator
 
-Up: [[00 - CSC5101 Index (MOC)]] | Concepts: [[02 - Cache Coherence and Memory Models]], [[04 - Non-Blocking Data Structures]]
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Concepts: [[02 - Cache Coherence and Memory Models]], [[04 - Non-Blocking Data Structures]]
 
 ---
 

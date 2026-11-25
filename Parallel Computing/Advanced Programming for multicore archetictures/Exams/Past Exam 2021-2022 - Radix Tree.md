@@ -13,7 +13,7 @@ tags:
 
 # Past Exam 2021–2022 — Radix Tree
 
-Up: [[00 - CSC5101 Index (MOC)]] | Ref: [[Exam Patterns and C11 Atomics Reference]]
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Ref: [[Exam Patterns and C11 Atomics Reference]]
 
 ---
 

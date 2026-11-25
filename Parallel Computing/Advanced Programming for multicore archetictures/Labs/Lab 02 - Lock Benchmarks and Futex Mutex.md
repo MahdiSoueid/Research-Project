@@ -10,7 +10,7 @@ tags:
 
 # Lab 02 — Lock Benchmarks and Futex Mutex
 
-Up: [[00 - CSC5101 Index (MOC)]] | Concept: [[03 - Lock Algorithms and Futexes]]
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Concept: [[03 - Lock Algorithms and Futexes]]
 
 ---
 

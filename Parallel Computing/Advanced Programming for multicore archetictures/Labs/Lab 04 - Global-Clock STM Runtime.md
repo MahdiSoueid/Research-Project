@@ -10,7 +10,7 @@ tags:
 
 # Lab 04 — Global-Clock STM Runtime
 
-Up: [[00 - CSC5101 Index (MOC)]] | Concept: [[06 - Transactional Memory (STM, HTM, HyTM)]]
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Concept: [[06 - Transactional Memory (STM, HTM, HyTM)]]
 
 ---
 

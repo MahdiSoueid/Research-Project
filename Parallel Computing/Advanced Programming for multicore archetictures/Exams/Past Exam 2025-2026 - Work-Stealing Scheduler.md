@@ -13,7 +13,7 @@ tags:
 
 # Past Exam 2025–2026 — Work-Stealing Scheduler
 
-Up: [[00 - CSC5101 Index (MOC)]] | Concepts: [[04 - Non-Blocking Data Structures]], [[06 - Transactional Memory (STM, HTM, HyTM)]], [[03 - Lock Algorithms and Futexes]]
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Concepts: [[04 - Non-Blocking Data Structures]], [[06 - Transactional Memory (STM, HTM, HyTM)]], [[03 - Lock Algorithms and Futexes]]
 
 ---
 

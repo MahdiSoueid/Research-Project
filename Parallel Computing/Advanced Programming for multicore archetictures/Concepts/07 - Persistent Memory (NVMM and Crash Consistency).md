@@ -18,7 +18,7 @@ tags:
 
 # 07 — Persistent Memory (NVMM and Crash Consistency)
 
-Up: [[00 - CSC5101 Index (MOC)]] | Prev: [[06 - Transactional Memory (STM, HTM, HyTM)]] | Extra: [[08 - NUMA Architecture (Extra)]]  
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Prev: [[06 - Transactional Memory (STM, HTM, HyTM)]] | Extra: [[08 - NUMA Architecture (Extra)]]  
 Lab: [[Lab 05 - NVMM Write-Ahead Cache (NVCache)]]
 
 ---

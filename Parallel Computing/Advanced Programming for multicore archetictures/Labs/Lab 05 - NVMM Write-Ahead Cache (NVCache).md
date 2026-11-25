@@ -10,7 +10,7 @@ tags:
 
 # Lab 05 — NVMM Write-Ahead Cache (NVCache)
 
-Up: [[00 - CSC5101 Index (MOC)]] | Concept: [[07 - Persistent Memory (NVMM and Crash Consistency)]]
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Concept: [[07 - Persistent Memory (NVMM and Crash Consistency)]]
 
 ---
 

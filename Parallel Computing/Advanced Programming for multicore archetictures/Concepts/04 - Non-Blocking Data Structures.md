@@ -17,7 +17,7 @@ tags:
 
 # 04 — Non-Blocking Data Structures
 
-Up: [[00 - CSC5101 Index (MOC)]] | Prev: [[03 - Lock Algorithms and Futexes]] | Next: [[05 - Safe Memory Reclamation (ABA, Hazard Pointers, RCU)]]  
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Prev: [[03 - Lock Algorithms and Futexes]] | Next: [[05 - Safe Memory Reclamation (ABA, Hazard Pointers, RCU)]]  
 Lab: [[Lab 03 - Lock-Free Queue, Stack, Radix Tree, Linked List]]
 
 ---

@@ -13,7 +13,7 @@ tags:
 
 # Past Exam 2022–2023 — Barrier & Flat Combining
 
-Up: [[00 - CSC5101 Index (MOC)]] | Concepts: [[01 - Processes, Threads and Monitors]], [[03 - Lock Algorithms and Futexes]], [[06 - Transactional Memory (STM, HTM, HyTM)]], [[07 - Persistent Memory (NVMM and Crash Consistency)]]
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Concepts: [[01 - Processes, Threads and Monitors]], [[03 - Lock Algorithms and Futexes]], [[06 - Transactional Memory (STM, HTM, HyTM)]], [[07 - Persistent Memory (NVMM and Crash Consistency)]]
 
 ---
 

@@ -18,7 +18,7 @@ tags:
 
 # 06 — Transactional Memory (STM, HTM, HyTM)
 
-Up: [[00 - CSC5101 Index (MOC)]] | Prev: [[05 - Safe Memory Reclamation (ABA, Hazard Pointers, RCU)]] | Next: [[07 - Persistent Memory (NVMM and Crash Consistency)]]  
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Prev: [[05 - Safe Memory Reclamation (ABA, Hazard Pointers, RCU)]] | Next: [[07 - Persistent Memory (NVMM and Crash Consistency)]]  
 Lab: [[Lab 04 - Global-Clock STM Runtime]]
 
 ---

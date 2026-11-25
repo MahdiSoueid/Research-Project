@@ -12,7 +12,7 @@ tags:
 
 # Exam Patterns & C11 Atomics Reference
 
-Up: [[00 - CSC5101 Index (MOC)]]
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]]
 
 ---
 

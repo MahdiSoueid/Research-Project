@@ -12,7 +12,7 @@ tags:
 
 # Past Exam 2024–2025 — Userspace RCU
 
-Up: [[00 - CSC5101 Index (MOC)]] | Concepts: [[05 - Safe Memory Reclamation (ABA, Hazard Pointers, RCU)]], [[06 - Transactional Memory (STM, HTM, HyTM)]], [[02 - Cache Coherence and Memory Models]]
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Concepts: [[05 - Safe Memory Reclamation (ABA, Hazard Pointers, RCU)]], [[06 - Transactional Memory (STM, HTM, HyTM)]], [[02 - Cache Coherence and Memory Models]]
 
 ---
 

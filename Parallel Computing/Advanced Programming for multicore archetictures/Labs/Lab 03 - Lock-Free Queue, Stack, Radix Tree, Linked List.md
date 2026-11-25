@@ -11,7 +11,7 @@ tags:
 
 # Lab 03 — Lock-Free Queue, Stack, Radix Tree & Linked List
 
-Up: [[00 - CSC5101 Index (MOC)]] | Concepts: [[04 - Non-Blocking Data Structures]], [[05 - Safe Memory Reclamation (ABA, Hazard Pointers, RCU)]]
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Concepts: [[04 - Non-Blocking Data Structures]], [[05 - Safe Memory Reclamation (ABA, Hazard Pointers, RCU)]]
 
 ---
 

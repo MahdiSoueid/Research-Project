@@ -16,7 +16,7 @@ tags:
 
 # 02 — Cache Coherence and Memory Models
 
-Up: [[00 - CSC5101 Index (MOC)]] | Prev: [[01 - Processes, Threads and Monitors]] | Next: [[03 - Lock Algorithms and Futexes]]
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Prev: [[01 - Processes, Threads and Monitors]] | Next: [[03 - Lock Algorithms and Futexes]]
 
 ---
 

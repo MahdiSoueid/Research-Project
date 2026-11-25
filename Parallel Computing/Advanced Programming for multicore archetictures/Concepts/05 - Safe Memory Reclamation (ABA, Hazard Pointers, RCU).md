@@ -19,7 +19,7 @@ tags:
 
 # 05 — Safe Memory Reclamation (ABA, Hazard Pointers, RCU)
 
-Up: [[00 - CSC5101 Index (MOC)]] | Prev: [[04 - Non-Blocking Data Structures]] | Next: [[06 - Transactional Memory (STM, HTM, HyTM)]]
+Up: [[Parallel Computing/Advanced Programming for multicore archetictures/Readme]] | Prev: [[04 - Non-Blocking Data Structures]] | Next: [[06 - Transactional Memory (STM, HTM, HyTM)]]
 
 ---
 
