@@ -70,7 +70,7 @@ jobs:
               echo "# Research Project Notes"
               echo ""
               echo "## Notes Index"
-              find "$QUARTZ_DIR/content" -maxdepth 2 -type f -name "*.md" ! -name "index.md" | sort | while read -r file; do
+              find "$QUARTZ_DIR/content" -type f -name "*.md" ! -name "index.md" | sort | while read -r file; do
                 rel="${file#$QUARTZ_DIR/content/}"
                 note="${rel%.md}"
                 echo "- [[${note}]]"
