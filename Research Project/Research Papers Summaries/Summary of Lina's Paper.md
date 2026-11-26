@@ -74,15 +74,41 @@ Different solutions have been proposed to improve the ==execution of LLMs in a [
 ![[Pasted image 20261027144304.png]]
 
 Results: [[Lina 2025]]
-- Q1: ==Workload Influence:== How do i==nput and output lengths influence the performance, resource usage, and power consumption== of llama.cpp and vLLM?
+- Q1: ==Workload Influence:== How do i==nput and output lengths influence the performance, resource usage, and power consumption== of llama.cpp and vLLM? (==size of input/output influence on performance at the level of different inference engines==)
 
-	- ==Concurrency is set to 1 ==to avoid disturbance and The effect of the ==input length is thus studied by maintaining O = 128 and varying P, while the effect of the output length is studied inversely by maintaining P = 128 and varying O==.
-		-  TTFT is better in [[vLLM]] rather than [[llama.cpp]] but is close when the [[Prefill Phase]] is small. As prefill increases [[vLLM]] performance begin to show since at low prefill, due to the multiple process required to run [[vLLM]], performance gain are not evident and are skewed.
-		- Increase output does not have a direct relationship with performance gain /loss.
+	- Concurrency is set to 1  ( testing one request only) to avoid disturbance 
+	- input length is thus studied by maintaining O = 128 and varying P, while the effect of the output length is studied inversely by maintaining P = 128 and varying O.
+		-  TTFT is better in [[vLLM]] compared to  [[llama.cpp]] but is close when the [[Prefill Phase]] is small. The effect that vLLM has is shown as the input increases ( with low input vLLM's multiple process requirement result in some performance tradeoffs )
+		- Increasing output size does not have a direct relationship with performance gain /loss.
+		- the decode phase takes more time than the prefill phase and takes most of the execution time
+		-  both have similar results regarding gpu utilization 
+		- vLLM has a larger footprint on memory and cpu  utilization due to it using 3 processes and KV cache optimizations.
+		- llama.cpp has higher energy consumption overall
 	
 - Q2:==Influence of concurrency: ==How does the behavior of the two engines change when the number of competing requests increases?
+	- three different request sizes are used P128/O1024 , P1024/O128 , P128/O128
+	- testing for  {1, 2, 4, 8, 16} of concurrent requests. 4 was the limit of concurrent request being parallelized as adding more makes them queued
+		- as the number of requests increases the speedup done vLLM can be observed more and more and it outperforms llama.cpp in all measures.
+		- vLLM has better performance but  utilizes resources more.
+		- vLLM uses less energy per request compared to llama.cpp
 - Q3: ==Resource sharing:== How does sharing platform resources with another application change the behavior of both engines?
+	- measured on the setting of 4 concurrent requests and P128/O1024
+		- vLLM is more effected by resource competition but still performs better than llama.cpp 
+		- 
 - Q4 – Generalization to other models and quantifications: Do the ==observed trends persist when the architecture, size or quantification[[Adaptation to the Edge]] of the model changes==?
+	- used P128/O1024  and 4 concurrent requests using the same model with different parameter sizes and different models with close parameter size
+		- we can see similar trends between the 2 different models and what was observed before.
+		- vLLM performs better overall and the has better performance on the 1b parameter one (Llama)
+		- llama.cpp performs worse with the quantized model while vLLM has better performance and faster responses using the quantized model.
+		- vLLM uses more resources while using the quantized model and has less energy footprint
+		- llama.cpp still uses more energy per request 
 - Q5 – Generalization to another Edge platform: Are the ==trends obtained on the main platform maintained on an Edge platform with more limited resources==?
+	- tests with different prefill and output sizes to see the differences between the AGX and the nano model
+	- test with concurrency and different models
+		- both GPUs project similar trends across each other but of course the results on the AGX are better once we use the test of different context sizes and varying inputs and outputs.
+		- also the same trends can be seen when using different request numbers between the AGX and the nano but ofcourse the results on the AGX are better.However , the nano has better energy footprint per request compared to  the AGX one. 
+		- Again same trends can be observed between the both GPUs when using different models and quantization's of the same model.
+	the choice of models varies the performance counter intuitively since even using a quantized model does not relate to better performances and faster outputs and also the nano excels more having a faster ttft for low prefills but lacks in the decode phase. overall the vllm has higher footprint on the memory and cpu with same  footprint as llama.cpp considering gpu utlizations.
+	
 
 

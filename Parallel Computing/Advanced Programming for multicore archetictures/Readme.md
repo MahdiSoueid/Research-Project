@@ -16,9 +16,9 @@ tags:
 
 # CSC5101 — Advanced Programming of Multicore Architectures
 
-> [!info] Course Overview
-> **Program:** M1 Parallel & Distributed Systems (IP Paris) / CHPS (Université Paris-Saclay)  
-> **Instructor:** Gaël Thomas  
+> [!info] Course Overview: These summaries were generated with the help of LLM's
+> **Program:** M1 Parallel & Distributed Systems (IP Paris)  
+> **Instructor:** Gaël Thomas 
 > **Scope:** 30h of lectures and labs covering multicore systems programming in C: POSIX threads, cache coherence & memory models, lock algorithms & futexes, lock-free data structures, safe memory reclamation, transactional memory, persistent memory (NVMM), and NUMA (extra).
 
 ---
